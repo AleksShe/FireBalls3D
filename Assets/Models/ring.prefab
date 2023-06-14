@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 973430286103498274}
   - component: {fileID: 3055312989803428584}
   - component: {fileID: 7996975087704866919}
+  - component: {fileID: 4985063832660540015}
   m_Layer: 0
   m_Name: ring
   m_TagString: Untagged
@@ -95,3 +96,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dce91dc3d4640442bbd495b5ba288ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &4985063832660540015
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559632103369939773}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8803937527578110353, guid: ebd311519b2204a46ad3a2c182f754ed, type: 3}
